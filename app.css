@@ -1,0 +1,84 @@
+/* quita los margenes por defecto */
+body {
+    margin:0;
+    padding:0
+}
+
+footer{
+    position: absolute;
+    top: 2786px;
+    width: 100%;
+}
+
+
+.container{
+    text-align: center;
+    background: #210933;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    position: absolute;
+    width: 100%;
+  
+}
+.container a {
+    padding-top: 3rem;
+    
+    text-decoration:none;
+
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 128.6%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.04em;
+
+    color: #857885;
+}
+
+.container h2{
+    padding-top: 3rem;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 128.6%;
+    /* identical to box height, or 18px */
+
+    letter-spacing: 0.04em;
+
+    color: #FFFFFF;
+}
+
+.social img{
+    padding-top: 3rem;
+    padding-left: 1.5rem;
+}
+
+.copyright{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+.copyright img{
+    padding-top: 10px;
+}
+p{
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10.4637px;
+    line-height: 128.6%;
+    /* identical to box height, or 13px */
+    
+    letter-spacing: 0.04em;
+    
+    color: #857885;
+
+    float: right;
+    padding-left: 10px;
+    
+}
