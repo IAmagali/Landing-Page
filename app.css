@@ -6,23 +6,68 @@ body {
 
 footer{
     position: absolute;
-    top: 2786px;
+  /*  top: 2786px;*/
     width: 100%;
 }
-
 
 .container{
-    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+
     background: #210933;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding-top: 80px;
-    position: absolute;
-    width: 100%;
-  
+    text-align: left;
+   
 }
+
+.copyright{
+    padding-bottom: 50px;
+    padding-top: 20px;
+}
+
+@media(min-width:540px){
+  /* -- escritorio -- */
+    .container{
+        padding: 100px;
+    }
+    .logoFooter {
+        grid-column: 1;
+        grid-row: 1;
+        padding-top: 44px;
+    }
+    .social {
+        grid-column: 1;
+        grid-row: 1;
+        padding-top: 80px;
+    }
+    .copyright {
+        grid-column: 1;
+        grid-row: 1;
+        padding-top: 180px;
+        padding-left: 25px;
+        padding-right: 95px;
+      
+    }
+
+    p{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:540px){
+    /* -- movil -- */
+    .container {
+       grid-template-columns: 1fr;
+       text-align: center;
+       padding-top: 80px;
+    }
+    .copyright{
+       padding-left: 78px;
+       padding-right: 69px;
+    }
+}
+
+
 .container a {
     padding-top: 3rem;
     
@@ -56,6 +101,7 @@ footer{
 
 .container li {
     list-style:none;
+    margin-top: 24px;
 }
 
 .social img{
@@ -63,13 +109,11 @@ footer{
     padding-left: 1.5rem;
 }
 
-.copyright{
-    padding-bottom: 50px;
-    padding-top: 20px;
-}
+
 .copyright img{
     padding-top: 10px;
 }
+
 p{
     font-family: Proxima Nova;
     font-style: normal;
@@ -83,6 +127,5 @@ p{
     color: #857885;
 
     float: right;
-    padding-left: 10px;
     
 }
