@@ -1,0 +1,39 @@
+/* Mobile */
+@media screen and (max-width: 414px) {
+  body {
+    background: yellow;
+    max-width: 414px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    display: grid;
+    grid-auto-rows: minmax(0px, 420px);
+    row-gap: 30px;
+  }
+
+  .logo {
+    font-size: 20px;
+  }
+
+  ul {
+    background-color: green;
+  }
+}
+
+/* Desktop */
+/* @media screen and (min-width: 414px) {
+  body {
+    background: blue;
+    grid-template-columns: minmax(0px, 414px)
+  }
+
+  .logo{
+    font-size: 50px;
+  }
+
+  ul{
+    background-color: green;
+  }
+} */
