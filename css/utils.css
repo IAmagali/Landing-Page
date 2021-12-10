@@ -1,25 +1,24 @@
 /* Se agregan elemento que se van a repetir */
 
 :root {
-  --white-color: #FFFFFF;
+  --white-color: #ffffff;
   --gray-color: #857885;
-  --purple-color: #5C0E62;
-  --red-color: #E23434;
-  --yellow-color: #FFBC51;
+  --purple-color: #5c0e62;
+  --red-color: #e23434;
+  --yellow-color: #ffbc51;
 }
 
-.title-section{
-  font-size: 24px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
-  color: var(--gray-color)
+
+
+.color-purple {
+  color: var(--purple-color);
 }
 
-.color-purple{
-  color: var(--purple-color)
+.center-text {
+  margin: 0 35px;
 }
 
-.center-text{
-  text-align: center;
+.gap-section {
+  display: grid;
+  row-gap: 12px;
 }
-
