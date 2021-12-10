@@ -1,7 +1,7 @@
 /* Mobile */
 @media screen and (max-width: 414px) {
   body {
-    background: yellow;
+
     max-width: 414px;
     display: flex;
     flex-direction: column;
@@ -13,9 +13,6 @@
     row-gap: 30px;
   }
 
-
-   
-  
   .logo {
     font-size: 20px;
   }

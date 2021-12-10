@@ -1,0 +1,37 @@
+.title-section {
+  font-size: 24px;
+  line-height: 30.86px;
+  font-family: ProximaNova-Regular;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  color: var(--gray-color);
+}
+
+.paragraph-section {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 128.6%;
+  letter-spacing: 0.04em;
+  color: var(--gray-color);
+}
+
+.link-section {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  text-decoration: none;
+  color: var(--purple-color);
+}
+
+.section-two__subtract{
+  position: absolute;
+  z-index: -1;
+  left: 5px;
+  bottom: -115px;
+}
+
+.section-two__image img{
+  margin-bottom: 30px;
+}
