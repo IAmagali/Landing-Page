@@ -6,6 +6,7 @@
   --purple-color: #5C0E62;
   --red-color: #E23434;
   --yellow-color: #FFBC51;
+  --blue-color: #210933;
 }
 
 .title-section{
@@ -23,3 +24,6 @@
   text-align: center;
 }
 
+.font-family{
+  font-family: sans-serif;
+}
