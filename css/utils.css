@@ -3,12 +3,11 @@
 :root {
   --white-color: #ffffff;
   --gray-color: #857885;
-  --purple-color: #5c0e62;
-  --red-color: #e23434;
-  --yellow-color: #ffbc51;
+  --purple-color: #5C0E62;
+  --red-color: #E23434;
+  --yellow-color: #FFBC51;
+  --blue-color: #210933;
 }
-
-
 
 .color-purple {
   color: var(--purple-color);
@@ -21,4 +20,8 @@
 .gap-section {
   display: grid;
   row-gap: 12px;
+}
+
+.font-family{
+  font-family: sans-serif;
 }
