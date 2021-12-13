@@ -9,7 +9,7 @@
 
   main {
     display: grid;
-    grid-auto-rows: minmax(0px, 420px);
+    grid-auto-rows: minmax(0px, 410px);
     row-gap: 30px;
   }
 

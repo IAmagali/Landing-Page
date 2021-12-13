@@ -3,9 +3,9 @@
 :root {
   --white-color: #ffffff;
   --gray-color: #857885;
-  --purple-color: #5C0E62;
-  --red-color: #E23434;
-  --yellow-color: #FFBC51;
+  --purple-color: #5c0e62;
+  --red-color: #e23434;
+  --yellow-color: #ffbc51;
   --blue-color: #210933;
 }
 
@@ -17,17 +17,16 @@
   text-align: center;
 }
 
-.center-margin{
+.center-margin {
   margin: 0 35px;
 }
 
 .gap-section {
   display: grid;
-  row-gap: 12px;
+  row-gap: 10px;
 }
 
-.flex-row{
+.flex-row {
   display: flex;
   flex-direction: row;
 }
-
