@@ -25,11 +25,15 @@
   color: var(--purple-color);
 }
 
+.section-two{
+  position: relative;
+}
+
 .section-two__subtract{
   position: absolute;
   z-index: -1;
   left: 5px;
-  bottom: -115px;
+  bottom: 190px;
 }
 
 .section-two__image img{
