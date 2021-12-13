@@ -7,8 +7,6 @@
   .section-carousel h2{
     position: relative;
     top: -40px;
-      
-    
   }
 
   .section-carousel p{
@@ -49,6 +47,9 @@
     color: var(--yellow-color);
   }
 
+#slide0{
+ margin: -2.5px;
+}
 
 .slider{
   position: relative;
