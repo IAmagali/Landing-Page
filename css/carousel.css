@@ -1,110 +1,109 @@
-.section-carousel{
-    display:flex;
-    flex-direction: column;
-    /* background: linear-gradient(96.34deg, #5C0E62 21.31%, #00B5D0 85.3%); */
-    background-image: url(/Landing-Page/assets/img/fondocarousel.png)
+.section-carousel {
+  display: flex;
+  flex-direction: column;
+  /* background: linear-gradient(96.34deg, #5C0E62 21.31%, #00B5D0 85.3%); */
+  background-image: url(/assets/img/fondocarousel.png);
+  height: 600px;
 }
-  .section-carousel h2{
-    position: relative;
-    top: -40px;
-  }
-
-  .section-carousel p{
-    position: relative;
-    width: 362px;
-    height: 36px;
-    margin: auto;
-    padding-top: 120px;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 128.6%;
-    letter-spacing: 0.04em;
-    color: var(--white-color);
-  }
-  
-  .section-carousel h1{
-    position: relative;
-    width: 152px;
-    height: 27px;
-    margin: auto;
-    font-weight: 900;
-    font-size: 21.1226px;
-    line-height: 128.6%;
-    letter-spacing: 0.075em;
-    text-transform: uppercase;
-    color: var(--yellow-color);
-  }
-  
-  .section-carousel h3{
-    position: relative;
-    width: 123px;
-    height: 18px;
-    margin: auto;
-    padding-bottom: 50px;
-    font-size: 14.0817px;
-    line-height: 128.6%;
-    letter-spacing: 0.04em;
-    color: var(--yellow-color);
-  }
-
-#slide0{
- margin: -2.5px;
+.section-carousel h2 {
+  margin-left: 84px;
+  margin-top: 76px;
+  position: relative;
+  text-align: center;
+  color: var(--white-color);
+  width: 264px;
 }
 
-.slider{
+.section-carousel p {
+  position: relative;
+  width: 362px;
+  height: 36px;
+  margin: auto;
+  padding-top: 120px;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 128.6%;
+  letter-spacing: 0.04em;
+  color: var(--white-color);
+}
+
+.section-carousel h1 {
+  position: relative;
+  width: 152px;
+  height: 27px;
+  margin: auto;
+  font-weight: 900;
+  font-size: 21.1226px;
+  line-height: 128.6%;
+  letter-spacing: 0.075em;
+  text-transform: uppercase;
+  color: var(--yellow-color);
+}
+
+.section-carousel h3 {
+  position: relative;
+  width: 123px;
+  height: 18px;
+  margin: auto;
+  padding-bottom: 50px;
+  font-size: 14.0817px;
+  line-height: 128.6%;
+  letter-spacing: 0.04em;
+  color: var(--yellow-color);
+}
+
+#slide0 {
+  margin: -2.5px;
+}
+
+.slider {
   position: relative;
   padding-left: 150px;
-        
 }
-      
-  .slider li {
-    opacity: 0; /*Ocultamos todos los <li>*/
-    transition: opacity .5s;
-    position: absolute; /*Posicionamos en absoluto los <li>*/
-    padding-top: 52px;
-  }
-  
-  .slider li:first-child{
-    opacity: 1; /*Mostramos el primer <li>*/
-  }
-      
-  .slider li:target{
-    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
-  }
-       
-  
-#nav-carousel{
-    display:flex;
-    flex-direction: row;
-    position: relative;
-    width: 44px;
-    height: 18px;
-    margin: auto;
-    padding-bottom: 20px;
-    
+
+.slider li {
+  opacity: 0; /*Ocultamos todos los <li>*/
+  transition: opacity 0.5s;
+  position: absolute; /*Posicionamos en absoluto los <li>*/
+  padding-top: 52px;
 }
-  
-  #nav-carousel li{
-    margin: auto;
-    
-    width: 100px;
-    height: 100px;
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background: var(--gray-color);
 
-    width: 6px;
-    height: 6px;
-  }
-  #nav-carousel nav{
-    opacity: 0;
-  }
-  #nav-carousel li:hover{
-    background: var(--white-color);
-  }
+.slider li:first-child {
+  opacity: 1; /*Mostramos el primer <li>*/
+}
 
+.slider li:target {
+  opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
 
-  
-  
-  
+.slider li img {
+  border: 3px solid white;
+  border-radius: 50%;
+}
+
+#nav-carousel {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 56px;
+  height: 18px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+#nav-carousel li {
+  margin: auto;
+
+  width: 8px;
+  height: 8px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: var(--purple-two-color);
+}
+#nav-carousel nav {
+  opacity: 0;
+}
+#nav-carousel li:hover {
+  background: var(--white-color);
+}
