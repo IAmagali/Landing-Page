@@ -1,7 +1,7 @@
 @import url(reset.css);
-@import url(utils.css);
-@import url(responsive.css);
-@import url(sections.css);
-@import url(footer.css);
-@import url(section-one.css);
-@import url(carousel.css);
+@import url(./mobile/utils.css);
+@import url(./mobile/responsive.css);
+@import url(./mobile/sections.css);
+@import url(./mobile/footer.css);
+@import url(./mobile/section-one.css);
+@import url(./mobile/carousel.css);

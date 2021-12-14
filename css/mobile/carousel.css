@@ -1,8 +1,9 @@
+@media screen and (max-width: 414px) {
 .section-carousel {
   display: flex;
   flex-direction: column;
   /* background: linear-gradient(96.34deg, #5C0E62 21.31%, #00B5D0 85.3%); */
-  background-image: url(../assets/img/fondocarousel.png);
+  background-image: url(../../assets/img/fondocarousel.png);
   height: 600px;
 }
 .section-carousel h2 {
@@ -106,4 +107,5 @@
 }
 #nav-carousel li:hover {
   background: var(--white-color);
+}
 }

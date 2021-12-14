@@ -1,3 +1,5 @@
+@media screen and (max-width: 414px) {
+
 header{
 display: flex;
 flex-direction: column;
@@ -7,7 +9,7 @@ padding:22px 32px 0px 32px;
 
 .section-one{
     max-height: 358px;
-    background: url(../assets/img/bg-top.png) no-repeat, url(../assets/img/bg-bottom.png) no-repeat ;
+    background: url(../../assets/img/bg-top.png) no-repeat, url(../../assets/img/bg-bottom.png) no-repeat ;
     color: var(--white-color);   
 }
 
@@ -58,4 +60,6 @@ padding:22px 32px 0px 32px;
     font-size: 14.58px;
     line-height: 18px;
     color: var(--white-color);
+}
+
 }
