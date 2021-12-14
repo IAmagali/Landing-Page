@@ -8,6 +8,7 @@
   --yellow-color: #ffbc51;
   --blue-color: #210933;
   --purple-two-color: #434472;
+  --light_purple-color: #798AC9;
 }
 
 .color-purple {
@@ -30,4 +31,14 @@
 .flex-row {
   display: flex;
   flex-direction: row;
+}
+
+.flex-center{
+  display: flex;
+  align-items: center;
+}
+
+.a--nodec {
+  color: var(--white-color);
+    text-decoration: none;
 }

@@ -4,24 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="app.css" />
     <title>Blinqpay</title>
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="stylesheet" href="css/global.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header class="header">
-      <h2 class="logo">
-        <img src="./icons/logo.svg" alt="Blinqpay logo" />Blinqpay
-      </h2>
-      <i class="fas fa-bars"></i>
-      <nav>
+  <header class="section-one">
+      
+      <nav class="section-one__nav">
+        <a href="#" class="flex-center a--nodec" id="logo">
+          <img src="./assets/icons/logo.svg" alt="Blinqpay logo" width="21.5px"
+          height="23.27px"> blinqpay
+        </a>
+<!--       
         <ul id="nav-menu">
           <li><a href="#">Products</a></li>
           <li><a href="#">Developers</a></li>
@@ -30,18 +28,19 @@
           <li><a href="#">Support</a></li>
           <li><a href="#">Sign in</a></li>
         </ul>
+-->
+        <div class="flex-center"><img src="assets/icons/Hamburger Menu.svg" width="18px" alt=""></div>
       </nav>
-    </header>
-    <main>
+      
       <section>
-        <h1>Get Your Payment Faster</h1>
+        <h1 class="section-one__title">Get Your Payment Faster</h1>
         <p>
           Blinqpay helps businesses in Africa get paid by anyone, anywhere in
           the world
         </p>
-        <button>Start Now</button>
+        <button class="section-one__btn">Start Now</button>
         <!-- helper background-->
-        <ul>
+        <ul class="section-one__list">
           <li>
             <img src="assets/icons/land-rover-icon.svg" alt="land-rover-icon" />
           </li>
@@ -55,7 +54,10 @@
           <li><img src="assets/icons/tiktok-icon.svg" alt="tiktok-icon" /></li>
         </ul>
       </section>
-
+    
+    </header>
+    <main>
+      
       <!--Section 2- Make & Share Payments With Community-->
       <section class="section-relative">
         <div class="section-two__image">
@@ -229,9 +231,5 @@
         </div>
       </div>
     </footer>
-    <script
-      src="https://kit.fontawesome.com/ac53ba767b.js"
-      crossorigin="anonymous"
-    ></script>
   </body>
 </html>
