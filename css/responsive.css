@@ -1,7 +1,7 @@
 /* Mobile */
 @media screen and (max-width: 414px) {
   body {
-
+    background: black;
     max-width: 414px;
     display: flex;
     flex-direction: column;
@@ -17,9 +17,6 @@
     font-size: 20px;
   }
 
-  ul {
-    background-color: green;
-  }
 }
 
 /* Desktop */
