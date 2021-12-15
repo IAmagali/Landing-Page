@@ -1,53 +1,58 @@
 @media screen and (max-width: 414px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    padding: 22px 32px 0px 32px;
+    background: url(../../assets/img/bg-top.png) no-repeat,
+      url(../../assets/img/bg-bottom.png) no-repeat;
+    /* background: linear-gradient(260deg, #00B5D0 13.24%, #5C0E62 96.78%); */
+    object-fit: fill;
+  }
 
-header{
-display: flex;
-flex-direction: column;
-height: 420px;
-padding:22px 32px 0px 32px;
-}
+  .section-one {
+    height: 378px;
+    color: var(--white-color);
+  }
 
-.section-one{
-    max-height: 358px;
-    background: url(../../assets/img/bg-top.png) no-repeat, url(../../assets/img/bg-bottom.png) no-repeat ;
-    color: var(--white-color);   
-}
+  .section-one__titles {
+    margin-bottom: 10.49px;
+  }
 
-.section-one__nav{
+  .section-one__nav {
     margin-bottom: 57.37px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 27.5px; 
-}
+    height: 27.5px;
+  }
 
-#logo{
-    font-family: 'Open Sans', sans-serif;
+  .section-one__nav img{
+    padding-right: 6px;
+  }
+
+  #logo {
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     font-size: 20.1818px;
     line-height: 27px;
-}
+  }
 
-.section-one__list{
+  .section-one__list {
     display: flex;
     justify-content: space-between;
-    top:30px;
+    top: 30px;
     margin: 0 8px;
-}
+  }
 
-
-
-.section-one__title {
+  .section-one__title {
     color: var(--white-color);
     font-weight: 800;
     font-size: 38.34px;
     line-height: 46.7px;
-    font-family: sans-serif;
-    margin-bottom: 10.49px;
-}
+  }
 
-
-.section-one__btn {
+  .section-one__btn {
     margin-top: 30.16px;
     margin-bottom: 33.17px;
     width: 162px;
@@ -55,11 +60,10 @@ padding:22px 32px 0px 32px;
     border-radius: 3.24px;
     background: var(--light_purple-color);
     border: var(--gray-color) 0.81;
-    font-family: 'Proxima Nova', sans-serif;
+    font-family: "Proxima Nova", sans-serif;
     font-weight: 700;
     font-size: 14.58px;
     line-height: 18px;
     color: var(--white-color);
-}
-
+  }
 }

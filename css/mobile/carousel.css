@@ -5,10 +5,11 @@
   /* background: linear-gradient(96.34deg, #5C0E62 21.31%, #00B5D0 85.3%); */
   background-image: url(../../assets/img/fondocarousel.png);
   height: 600px;
+  margin-top: 60px;
 }
 .section-carousel h2 {
   margin-left: 84px;
-  margin-top: 76px;
+  margin-top: 80px;
   position: relative;
   text-align: center;
   color: var(--white-color);
@@ -20,12 +21,13 @@
   width: 362px;
   height: 36px;
   margin: auto;
-  padding-top: 120px;
+  padding-top: 192px;
   font-style: normal;
   font-size: 14px;
   line-height: 128.6%;
   letter-spacing: 0.04em;
   color: var(--white-color);
+  font-family: ProximaNova-Bold
 }
 
 .section-carousel h1 {
@@ -39,11 +41,12 @@
   letter-spacing: 0.075em;
   text-transform: uppercase;
   color: var(--yellow-color);
+  font-family: ProximaNova-Bold
 }
 
 .section-carousel h3 {
   position: relative;
-  width: 123px;
+  width: 125px;
   height: 18px;
   margin: auto;
   padding-bottom: 50px;
@@ -51,6 +54,7 @@
   line-height: 128.6%;
   letter-spacing: 0.04em;
   color: var(--yellow-color);
+  font-family: ProximaNova-Bold
 }
 
 #slide0 {
@@ -66,7 +70,7 @@
   opacity: 0; /*Ocultamos todos los <li>*/
   transition: opacity 0.5s;
   position: absolute; /*Posicionamos en absoluto los <li>*/
-  padding-top: 52px;
+  padding-top: 60px;
 }
 
 .slider li:first-child {
@@ -89,7 +93,7 @@
   width: 56px;
   height: 18px;
   margin: auto;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #nav-carousel li {
