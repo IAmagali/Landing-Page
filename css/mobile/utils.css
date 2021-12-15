@@ -1,5 +1,4 @@
 /* Se agregan elemento que se van a repetir */
-@media screen and (max-width: 414px) {
 :root {
   --white-color: #ffffff;
   --gray-color: #857885;
@@ -11,35 +10,49 @@
   --light_purple-color: #798AC9;
 }
 
-.color-purple {
-  color: var(--purple-color);
+/* mobile */
+@media screen and (max-width: 414px) {
+
+  .color-purple {
+    color: var(--purple-color);
+  }
+   /* en mobile se justifica el texto en center */
+  .justify-text {
+    text-align: center;
+  }
+
+  .center-margin {
+    margin: 0 35px;
+  }
+
+  .gap-section {
+    display: grid;
+    row-gap: 10px;
+  }
+
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flex-center{
+    display: flex;
+    align-items: center;
+  }
+
+  .a--nodec {
+    color: var(--white-color);
+      text-decoration: none;
+  }
 }
 
-.center-text {
-  text-align: center;
-}
+/* Desktop */
+@media screen and (min-width: 415px) {
 
-.center-margin {
-  margin: 0 35px;
-}
-
-.gap-section {
-  display: grid;
-  row-gap: 10px;
-}
-
-.flex-row {
-  display: flex;
-  flex-direction: row;
-}
-
-.flex-center{
-  display: flex;
-  align-items: center;
-}
-
-.a--nodec {
-  color: var(--white-color);
-    text-decoration: none;
-}
-}
+  /* en desktop se justifica el texto en left */
+  .justify-text {
+    text-align: left;
+  }
+  
+ 
+  }
