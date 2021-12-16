@@ -8,7 +8,9 @@
   padding: 80px 0 50px 0;
   background-color: var(--blue-color);
 }
-
+.footer-container-logoFooter img{
+  width: 210px;
+}
 .footer-container a {
   padding-top: 3rem;
   text-decoration: none;

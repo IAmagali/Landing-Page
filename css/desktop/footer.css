@@ -11,7 +11,7 @@
   }
 
 .footer__card{
-    background-color: red;
+    background-color: var(--white-color);
     border-radius: 10px;
     width: 900px;
     height: 182px;
@@ -19,36 +19,55 @@
     position: relative;
     top: 100px;
     left: 150px;
+    display: inline-flex;
+    justify-content: space-around;
+  
   }
 
 
   .footer__card-texto {
-    padding: 3.5rem 0 1rem 0;
+    margin-top: 1.5em;
     color: var(--gray-color);
-    font-style: normal;
     font-weight: bold;
-    font-size: 24px;
+    font-size: 40px;
     line-height: 128.6%;
     letter-spacing: 0.04em;
   }
-  
+
+  .footer__card-span{
+    color: var(--purple-color);
+  }
+
   .footer__card-button{
-    background-color: rgb(231, 231, 118);
+    margin-top: 3.5em;
+    background-color: var(--orange-color);
     width: 200px;
     height: 55px;
     border-radius: 5px;
-    text-align: center;
-    
+    display:inline-flex;/* para centrar texto del boton junto con margin:auto  */
+    box-shadow: 20px 0px 100px #999;
+      
   }
   .footer__card-textoButton{
     text-decoration: none;
+    line-height:17,05px ; 
+    
+    font-weight: 400;
     color: var(--white-color);
+    margin: auto;
+  
   }
  
  
  .footer-container-logoFooter{
   grid-column: 1;
+  
   }
+
+  .footer-container-logoFooter img{
+    width: 210px;
+  }
+  
   .footer-container a {
     padding-top: 3rem;
     text-decoration: none;
@@ -79,12 +98,8 @@
 
   .footer-container-copyright {
     grid-column: 1;
-    grid-row: 1;
     position: absolute;
     padding: 200px 1px 10px 7px;
-    display: flex;
-    flex-direction: row;
-    margin: auto;
     width: 150px;
   }
   .footer-container-copyright img{
@@ -98,8 +113,12 @@
     line-height: 128.6%;
     letter-spacing: 0.04em;
     color: var(--gray-color);
-    margin-left: 0.3rem;
+    margin-left: 0.5rem;
+    display: inline-flex;
+   
   }
-
+  .footer-container h2 {
+    color: var(--white-color)
+  }
   
 }
