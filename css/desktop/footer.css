@@ -10,7 +10,7 @@
     background-color: var(--blue-color);
   }
 
-.footer-card{
+.footer__card{
     background-color: red;
     border-radius: 10px;
     width: 900px;
@@ -20,13 +20,32 @@
     top: 100px;
     left: 150px;
   }
-  .footer-card__button{
-    background-color: yellow;
+
+
+  .footer__card-texto {
+    padding: 3.5rem 0 1rem 0;
+    color: var(--gray-color);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+  }
+  
+  .footer__card-button{
+    background-color: rgb(231, 231, 118);
     width: 200px;
     height: 55px;
     border-radius: 5px;
+    text-align: center;
+    
   }
-
+  .footer__card-textoButton{
+    text-decoration: none;
+    color: var(--white-color);
+  }
+ 
+ 
  .footer-container-logoFooter{
   grid-column: 1;
   }
@@ -41,15 +60,6 @@
     letter-spacing: 0.04em;
   }
 
-  .footer-container h2 {
-    padding: 3.5rem 0 1rem 0;
-    color: var(--white-color);
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 128.6%;
-    letter-spacing: 0.04em;
-  }
 
   .footer-container li {
     margin-top: 24px;
