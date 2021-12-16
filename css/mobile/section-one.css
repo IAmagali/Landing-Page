@@ -27,6 +27,10 @@
     height: 27.5px;
   }
 
+  #nav_menu {
+    display: none;
+  }
+  
   .section-one__nav img{
     padding-right: 6px;
   }
@@ -51,6 +55,7 @@
     font-size: 38.34px;
     line-height: 46.7px;
   }
+
 
   .section-one__btn {
     margin-top: 30.16px;
