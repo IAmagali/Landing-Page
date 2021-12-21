@@ -8,15 +8,51 @@
     header {
         background-image: url(../../assets/img/bg-sectionOne.png);
         background-repeat: no-repeat;
-        background-size: 100% 91%;
+        background-size: 100% 93%;
     }
     .section-one__nav{
         grid-column: 1/13;
         grid-row: 1/2 ;
         margin: 2% 11.2% 0 11.2%;
-    }
-    
 
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+    }
+
+    #logo {
+        grid-column: 1/4;
+        display: flex;
+        align-self: center;
+        justify-self: start;
+        font-weight: 600;
+        font-size: 36px;
+    }
+    #nav-menu {
+        font-size: 16px;
+        grid-column: 4/11;
+
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        line-height: 19px;
+    }
+    #center-menu {
+        grid-column: 1/5;
+        
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+    #support {
+        grid-column: 6/7;
+        align-self: center;
+        justify-self: center;
+    }
+    #sign-in {
+        grid-column: 7/8;
+        align-self: center;
+        justify-self: center;
+    }
     #hamburger-menu{
         display: none;
     }

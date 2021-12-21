@@ -1,3 +1,4 @@
+@media screen and (min-width: 415px) {
 *{
     box-sizing: border-box;
 }
@@ -21,3 +22,8 @@ a {
     --light_purple-color: #798AC9;
   }
   
+  .ocult-d {
+      display: none;
+  }
+
+}
