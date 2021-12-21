@@ -3,11 +3,28 @@
     .section-carousel{
         position: relative;
         margin-bottom: -190px;
-        background-color: blue;
+  
+        
         display: grid;
         grid-template-columns: 1fr 1fr ;
        height: 996px;
     }
+    .section-carousel:before { 
+        content: "";
+        position: absolute; 
+        width: 200%; height: 100%; 
+        top: 20%; left: -50%; 
+        z-index: -1;
+              background:linear-gradient(to right, #5C0E62, #00B5D0);
+              transform: rotate(-10deg);
+          /* -webkit-transform: rotate(30deg); 
+          -moz-transform: rotate(30deg); 
+          -ms-transform: rotate(30deg);
+           -o-transform: rotate(30deg);
+           transform: rotate(30deg);  */
+        }
+
+       
 
     .section-carousel h2{
     
