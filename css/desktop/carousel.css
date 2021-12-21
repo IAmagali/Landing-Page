@@ -1,0 +1,170 @@
+@media screen and (min-width: 415px) {
+    /* DESKTOP */
+    .section-carousel{
+           
+        position: relative;
+        margin-bottom: -190px;
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        height: 996px;
+    }
+    .section-carousel:before { 
+        content: "";
+        position: absolute; 
+        width: 200%; height: 100%; 
+        top: 20%; left: -50%; 
+        z-index: -1; 
+        background:linear-gradient(to right, #5C0E62, #00B5D0);
+        transform: rotate(-10deg);
+
+
+      
+    }
+    /* vectores decorativos de fondo */
+    #vector1 {
+      position: relative;
+      top: -200px ;
+      left: -50px;
+    } 
+    
+    #vector2 {
+        position: absolute;
+        top:520px ;
+        left: 96px;
+    }  
+
+    #vector3 {
+        position: absolute;
+        top: -211px ;
+        right: -10px;
+    } 
+    /* parrafo */
+    #vector4 {
+        position: relative;
+        top: -240px ;
+        right: 150px;
+    } 
+
+
+
+    .section-carousel h2{
+    
+        bottom: 350px;
+        left: 153px;
+        
+        position: absolute;
+        text-align: left;
+        color: var(--white-color);
+        width: 364px;
+        font-size: 38px;
+    }
+    
+    .section-carousel p{
+        position: absolute;
+        width: 402px;
+        height: 36px;
+        
+        bottom: 272px;
+        left: 153px;
+
+        font-style: normal;
+        font-size: 14px;
+        line-height: 128.6%;
+        letter-spacing: 0.04em;
+        color: var(--white-color);
+        font-family: ProximaNova-Bold 
+    }
+
+
+    .contenedor-slider {
+        grid-column: 2;
+    }
+   
+    /* fotos costumers */
+    #slide1{
+        position: relative;
+        top: -700px;
+        left: 120px;
+       
+    }
+    #slide2{
+        position: relative;
+        top: -950px;
+        left: 550px;
+        
+    }
+     #slide2 img{
+        width: 100px;
+        height: 100px;
+     }
+
+     #slide3{
+            position: relative;
+        top: -800px;
+        left: 500px;
+     }
+     #slide3 img{
+        width: 80px;
+        height: 80px;
+       
+     }
+
+     #slide4{
+            position: relative;
+        top: -700px;
+        left: 200px;
+     }
+     #slide4 img{
+        width: 95px;
+        height: 95px;
+        
+     }
+     #slide5{
+        position: relative;
+        top: -800px;
+        left: 580px;
+    }
+    #slide5 img{
+        width: 70px;
+        height: 70px;
+        
+    }
+    .slider li img {
+        border: 3px solid white;
+        border-radius: 50%;
+      }
+    
+      .section-carousel h1 {
+        position: relative;
+        top: -1000px;
+        left: 860px;
+        width: 152px;
+        height: 27px;
+      
+        font-weight: 900;
+        font-size: 21.1226px;
+        line-height: 128.6%;
+        letter-spacing: 0.075em;
+        text-transform: uppercase;
+        color: var(--yellow-color);
+        font-family: ProximaNova-Bold
+      }
+      
+      .section-carousel h3 {
+        position: absolute;
+        top: 525px;
+        left: 870px;
+        
+        width: 125px;
+        height: 18px;
+        margin: auto;
+        padding-bottom: 50px;
+        font-size: 14.0817px;
+        line-height: 128.6%;
+        letter-spacing: 0.04em;
+        color: var(--yellow-color);
+        font-family: ProximaNova-Bold
+      }
+
+
+}
