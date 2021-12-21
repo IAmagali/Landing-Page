@@ -112,4 +112,28 @@
 #nav-carousel li:hover {
   background: var(--white-color);
 }
+
+
+#vector1{
+  height: 0px;
+  visibility: hidden ;
 }
+#vector2{
+  height: 0px;
+  visibility: hidden ;
+}
+#vector3{
+  height: 0px;
+  visibility: hidden ;
+}
+#vector4{
+  height: 0px;
+  visibility: hidden ;
+}
+
+
+
+
+}
+
+
