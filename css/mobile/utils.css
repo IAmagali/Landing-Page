@@ -55,5 +55,8 @@
     text-align: left;
   }
   
+  .color-purple {
+    color: var(--purple-color);
+  }
  
   }

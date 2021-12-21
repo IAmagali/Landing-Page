@@ -1,0 +1,129 @@
+@media screen and (min-width: 415px) {
+  .section-two {
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+    width: 1167px;
+    justify-content: space-between;
+    /* background-color: #00b5d0; */
+  }
+
+  .section-two__frame {
+    width: 320px;
+    height: 258px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-two__subtract {
+    filter: invert(0%) sepia(1%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    width: 88px;
+    height: 91px;
+  }
+
+  .section-two__image--screens-sections2 {
+    display: none;
+  }
+
+  .title-section {
+    font-size: 40px;
+    line-height: 128.6%;
+    font-family: ProximaNova-Bold;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: var(--gray-color);
+    position: relative;
+  }
+
+  .paragraph-section {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: var(--gray-color);
+  }
+
+  .link-section {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: var(--purple-color);
+    padding-right: 13px;
+  }
+
+  .section-two__card {
+    width: 280px;
+    height: 164px;
+    border-radius: 4px;
+    background: #ffffff;
+    box-shadow: 7px 10px 50px #e8e2f0;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .section-two__cards {
+    margin-top: 83px;
+    width: 607px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 45.82px;
+  }
+
+  .bg-border-card {
+    width: 5px;
+    height: 164px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(150.72deg, #00b5d0 3.87%, #5c0e62 110.68%);
+    box-shadow: 7px 10px 50px #e8e2f0;
+    border-radius: 10px 0px 0px 10px;
+  }
+
+  .section-two__container {
+    height: 364px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-two__card--frame {
+    width: 200.32px;
+    height: 104px;
+    margin: 25px 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .section-two__card--frame h1 {
+    font-family: ProximaNova-Bold;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: #5c5e6e;
+  }
+
+  .section-two__card--frame p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 128.6%;
+    /* or 21px */
+
+    letter-spacing: 0.075em;
+
+    color: #756f6f;
+
+    opacity: 0.7;
+  }
+
+  .mg-top-40 {
+    margin-top: 40px;
+  }
+}
