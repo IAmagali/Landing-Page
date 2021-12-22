@@ -45,15 +45,11 @@
     color: var(--white-color);
       text-decoration: none;
   }
-}
-
-<<<<<<< HEAD
-.ocult-m {
-  display: none;
-}
+  .ocult-m {
+    display: none;
+  }
 
 }
-=======
 /* Desktop */
 @media screen and (min-width: 415px) {
 
@@ -67,4 +63,3 @@
   }
  
   }
->>>>>>> 4500ecfecdbafe18b8b7c1b0ca945c26bacb1222

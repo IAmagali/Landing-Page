@@ -1,14 +1,14 @@
 @media screen and (min-width: 415px){
-    
     .grid-container{
         display: grid;
         grid-template-columns: repeat(12, 8.33%);
-        grid-template-rows: repeat(6, 16.6vh);
+        grid-template-rows: repeat(6, 16.6%);
+        height: 753px;
     }
     header {
         background-image: url(../../assets/img/bg-sectionOne.png);
         background-repeat: no-repeat;
-        background-size: 100% 93%;
+        background-size: 100% 89%;
     }
     .section-one__nav{
         grid-column: 1/13;
@@ -19,7 +19,7 @@
         grid-template-columns: repeat(10, 1fr);
     }
 
-    #logo {
+    #logo-d {
         grid-column: 1/4;
         display: flex;
         align-self: center;
@@ -43,15 +43,24 @@
         justify-content: space-around;
         align-items: center;
     }
-    #support {
-        grid-column: 6/7;
-        align-self: center;
-        justify-self: center;
+    #end-menu {
+        grid-column: 6/8;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
     }
-    #sign-in {
-        grid-column: 7/8;
-        align-self: center;
-        justify-self: center;
+    #sign-in-btn {
+        background: var(--yellow-color);
+        font-family: 'Proxima Nova', sans-serif;
+        color: var(--white-color);
+        font-size: 16px;
+        line-height: 19px;
+        width: 130px;
+        height: 43px;
+        border: 0;
+        border-radius: 96px;
+        padding: 12px 40px;
+        margin-left: 40px;
     }
     #hamburger-menu{
         display: none;
@@ -59,7 +68,7 @@
     .section-one__section{
         grid-column: 1/13;
         grid-row: 2/7;
-        margin-top:6.7%;
+        margin-top:6.9%;
         margin-left: 11%;
         width: 421px;
         font-family: "Proxima Nova", sans-serif;
@@ -74,7 +83,7 @@
         font-weight: 800;
         font-size: 45px;
         line-height: 67px;
-        margin-bottom: 18.25px;
+        margin-bottom: 50px;
     }
 
     .section-one__title {
@@ -89,12 +98,25 @@
         box-sizing: border-box;
         border-radius: 4px;
         color: var(--white-color);
-        font-family: "Proxima Nova", sans-serif;
+        font-family: 'ProximaNova-Bold', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 18px;
         line-height: 22px;
         text-align: center;
         margin-top: 32px;
+    }
+
+    #video-button-d {
+        margin: 22.5% 20% 0 20%;
+        background: none;
+        border: 0;
+    }
+    #screens-SectionOne {
+        grid-column: 6/13;
+        grid-row: 2/7;
+        margin-left: 7%;
+        margin-top: 2%;
+        max-width: 50vw;
     }
 }
