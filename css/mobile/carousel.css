@@ -24,14 +24,14 @@
   width: 264px;
 }
 
+/* parrafo debajo de la foto customer */
 .section-carousel p {
-  position: relative;
-  width: 362px;
-  height: 36px;
-  margin: auto;
-  padding-top: 192px;
+  position: absolute;
+  margin: 210px 80px;
+  width: 270px;
+  text-align: center;
   font-style: normal;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 128.6%;
   letter-spacing: 0.04em;
   color: var(--white-color);
@@ -41,7 +41,7 @@
 /* texto LEO MAYNUS */
 .section-carousel h1 {
   position: absolute;
-  margin: 100px 140px;
+  margin: 320px 140px;
   width: 150px;
 
   font-weight: 900;
@@ -56,7 +56,7 @@
 /* Texto CEO at Softpanda */
 .section-carousel h3 {
   position: absolute;
-  margin: 135px 150px;
+  margin: 350px 150px;
   width: 150px;
   font-size: 14.0817px;
   line-height: 128.6%;
@@ -102,7 +102,7 @@
   height: 18px;
   margin: auto;
   padding-bottom: 40px;
-  top: 200px;
+  top: 400px;
 }
 
 #nav-carousel li {
@@ -143,7 +143,7 @@
   visibility: hidden ;
 }
 
-.section-carousel p{
+.title-section p{
   height: 0px;
   visibility: hidden;
 }
