@@ -14,7 +14,7 @@
   .footer__card {
     background-color: var(--white-color);
     border-radius: 10px;
-    width: 65rem;
+    width: 1000px;
     height: 182px;
     z-index: 99;
     position: relative;
