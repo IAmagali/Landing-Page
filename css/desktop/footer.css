@@ -8,12 +8,13 @@
     grid-auto-rows: minmax(100px, auto);
     padding: 280px 50px 180px 180px;
     background-color: var(--blue-color);
+  
   }
 
   .footer__card {
     background-color: var(--white-color);
     border-radius: 10px;
-    width: 1200px;
+    width: 65rem;
     height: 182px;
     z-index: 99;
     position: relative;

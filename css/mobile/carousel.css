@@ -6,6 +6,14 @@
   background-image: url(../../assets/img/fondocarousel.png);
   height: 600px;
   margin-top: 60px;
+
+  position: relative;
+}
+
+.contenedor-slider{
+  position: absolute;
+  margin: auto;
+  top: 150px;
 }
 .section-carousel h2 {
   margin-left: 84px;
@@ -30,11 +38,12 @@
   font-family: ProximaNova-Bold
 }
 
+/* texto LEO MAYNUS */
 .section-carousel h1 {
-  position: relative;
-  width: 152px;
-  height: 27px;
-  margin: auto;
+  position: absolute;
+  margin: 100px 140px;
+  width: 150px;
+
   font-weight: 900;
   font-size: 21.1226px;
   line-height: 128.6%;
@@ -44,12 +53,11 @@
   font-family: ProximaNova-Bold
 }
 
+/* Texto CEO at Softpanda */
 .section-carousel h3 {
-  position: relative;
-  width: 125px;
-  height: 18px;
-  margin: auto;
-  padding-bottom: 50px;
+  position: absolute;
+  margin: 135px 150px;
+  width: 150px;
   font-size: 14.0817px;
   line-height: 128.6%;
   letter-spacing: 0.04em;
@@ -94,6 +102,7 @@
   height: 18px;
   margin: auto;
   padding-bottom: 40px;
+  top: 200px;
 }
 
 #nav-carousel li {
@@ -114,6 +123,9 @@
 }
 
 
+
+
+/* no visile en mobile */
 #vector1{
   height: 0px;
   visibility: hidden ;
@@ -131,7 +143,10 @@
   visibility: hidden ;
 }
 
-
+.section-carousel p{
+  height: 0px;
+  visibility: hidden;
+}
 
 
 }
