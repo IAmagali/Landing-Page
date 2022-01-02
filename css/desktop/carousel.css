@@ -1,181 +1,165 @@
 @media screen and (min-width: 415px) {
-    /* DESKTOP */
-    .section-carousel{
-         background-color: blue; 
-        position: relative;
-        margin:auto;
-        margin-bottom: -190px;
-        display: grid;
-        grid-template-columns: 1fr 1fr ;
-        height: 996px;
-        width: 100%;
-    }
-    
-    .title-section{
-       grid-column: 1;
-       position: absolute;
-      
-       margin: -400px 150px;
-    }
-    .section-carousel p{
-        position: absolute;
-        text-align: left;
-        top: 150px;
-        width: 353px;
-        font-style: normal;
-        font-size: 15px;
-        line-height: 128.6%;
-        letter-spacing: 0.04em;
-        color: var(--white-color);
-        font-family: ProximaNova-Bold 
-    }
+  /* DESKTOP */
+  .section-carousel {
+    background-color: blue;
+    position: relative;
+    margin: auto;
+    margin-bottom: -190px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 996px;
+    width: 100%;
+  }
 
-    /* what our custumer are saying */
-    .section-carousel h2{
-        text-align: left;
-        color: var(--white-color);
-        width: 394px;
-        font-size: 38px;
-    }
+  .section-carousel__title-section {
+    grid-column: 1;
+    position: absolute;
+    margin: 0px 150px;
+  }
+  .section-carousel p {
+    position: absolute;
+    text-align: left;
+    top: 150px;
+    width: 353px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    font-family: ProximaNova-Bold;
+  }
 
-   
-    /* vectores decorativos de fondo */
-    #vector1 {
-      position: relative;
-      top: 00px ;
-      left: -50px;
-    } 
-    
-    #vector2 {
-        position: absolute;
-        top:520px ;
-        left: 96px;
-    }  
+  /* what our custumer are saying */
+  .section-carousel h2 {
+    text-align: left;
+    color: var(--white-color);
+    width: 394px;
+    font-size: 38px;
+  }
 
-    #vector3 {
-        position: absolute;
-        top: -211px ;
-        right: -10px;
-    } 
-    /* parrafo */
-    #vector4 {
-        position: relative;
-        top: -240px ;
-        right: 150px;
-    } 
+  /* vectores decorativos de fondo */
+  #vector1 {
+    position: relative;
+    top: 00px;
+    left: -50px;
+  }
 
+  #vector2 {
+    position: absolute;
+    top: 520px;
+    left: 96px;
+  }
 
-    
-    
-    /* parrafo debajo de la foto cutomer */
-    .contenedor-slider p{
-        position: absolute;
-        text-align: center;
-        top: -550px;
-        left: -80px;
-        width: 353px;
-        font-style: normal;
-        font-size: 15px;
-        line-height: 128.6%;
-        letter-spacing: 0.04em;
-        color: var(--white-color);
-        font-family: ProximaNova-Bold 
-    }
-     /*texto LEO MAYNUS  */
-    .section-carousel h1 {
-        position: absolute;
-        top: -470px;
-        left: 15px;
-        width: 152px;
-        height: 27px;
-      
-        font-weight: 900;
-        font-size: 21.1226px;
-        line-height: 128.6%;
-        letter-spacing: 0.075em;
-        text-transform: uppercase;
-        color: var(--yellow-color);
-        font-family: ProximaNova-Bold
-    }
-    /* texto CEO at Softpanda */
-    .section-carousel h3 {
-        position: absolute;
-        top: -420px;
-        left: 25px;
-        
-        width: 125px;
-        height: 18px;
-        margin: auto;
-        padding-bottom: 50px;
-        font-size: 14.0817px;
-        line-height: 128.6%;
-        letter-spacing: 0.04em;
-        color: var(--yellow-color);
-        font-family: ProximaNova-Bold;
-    }
+  #vector3 {
+    position: absolute;
+    top: -211px;
+    right: -10px;
+  }
+  /* parrafo */
+  #vector4 {
+    position: relative;
+    top: -240px;
+    right: 150px;
+  }
 
-    .contenedor-slider {
-        grid-column: 2;
-        position: relative;
-    }
-   
-    /* fotos costumers */
-    #slide1{
-        position: absolute;
-        top: -700px;
-        left: 20px;
-       
-    }
-    #slide2{
-        position: absolute;
-        top: -870px;
-        left: 456px;
-        
-    }
-     #slide2 img{
-        width: 100px;
-        height: 100px;
-     }
+  /* parrafo debajo de la foto cutomer */
+  .contenedor-slider p {
+    position: absolute;
+    text-align: center;
+    top: -550px;
+    left: -80px;
+    width: 353px;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    font-family: ProximaNova-Bold;
+  }
+  /*texto LEO MAYNUS  */
+  .section-carousel h1 {
+    position: absolute;
+    top: -470px;
+    left: 15px;
+    width: 152px;
+    height: 27px;
 
-     #slide3{
-            position: absolute;
-            top: -612px;
-            left: 416px;
-     }
-     #slide3 img{
-        width: 80px;
-        height: 80px;
-       
-     }
+    font-weight: 900;
+    font-size: 21.1226px;
+    line-height: 128.6%;
+    letter-spacing: 0.075em;
+    text-transform: uppercase;
+    color: var(--yellow-color);
+    font-family: ProximaNova-Bold;
+  }
+  /* texto CEO at Softpanda */
+  .section-carousel h3 {
+    position: absolute;
+    top: -420px;
+    left: 25px;
 
-     #slide4{
-            position: absolute;
-            top: -362px;
-            left: 199px;
-     }
-     #slide4 img{
-        width: 95px;
-        height: 95px;
-        
-     }
-     #slide5{
-        position: absolute;
-        top: -348px;
-        left: 507px;
-    }
-    #slide5 img{
-        width: 70px;
-        height: 70px;
-        
-    }
-    .slider li img {
-        border: 3px solid white;
-        border-radius: 50%;
-    }
-    
-      
-      
-      
+    width: 125px;
+    height: 18px;
+    margin: auto;
+    padding-bottom: 50px;
+    font-size: 14.0817px;
+    line-height: 128.6%;
+    letter-spacing: 0.04em;
+    color: var(--yellow-color);
+    font-family: ProximaNova-Bold;
+  }
 
+  .contenedor-slider {
+    grid-column: 2;
+    position: relative;
+  }
 
+  /* fotos costumers */
+  #slide1 {
+    position: absolute;
+    top: -700px;
+    left: 20px;
+  }
+  #slide2 {
+    position: absolute;
+    top: -870px;
+    left: 456px;
+  }
+  #slide2 img {
+    width: 100px;
+    height: 100px;
+  }
+
+  #slide3 {
+    position: absolute;
+    top: -612px;
+    left: 416px;
+  }
+  #slide3 img {
+    width: 80px;
+    height: 80px;
+  }
+
+  #slide4 {
+    position: absolute;
+    top: -362px;
+    left: 199px;
+  }
+  #slide4 img {
+    width: 95px;
+    height: 95px;
+  }
+  #slide5 {
+    position: absolute;
+    top: -348px;
+    left: 507px;
+  }
+  #slide5 img {
+    width: 70px;
+    height: 70px;
+  }
+  .slider li img {
+    border: 3px solid white;
+    border-radius: 50%;
+  }
 }
