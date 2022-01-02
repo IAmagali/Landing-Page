@@ -1,0 +1,29 @@
+@media screen and (min-width: 415px) {
+*{
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white-color);
+}
+
+.inline-flex {
+    display: inline-flex;
+}
+:root {
+    --white-color: #ffffff;
+    --gray-color: #857885;
+    --purple-color: #5c0e62;
+    --red-color: #e23434;
+    --yellow-color: #ffbc51;
+    --blue-color: #210933;
+    --purple-two-color: #434472;
+    --light_purple-color: #798AC9;
+  }
+  
+  .ocult-d {
+      display: none;
+  }
+
+}

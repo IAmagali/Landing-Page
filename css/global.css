@@ -1,10 +1,15 @@
 @import url(reset.css);
+/*mobile*/
 @import url(./mobile/utils.css);
 @import url(./mobile/responsive.css);
 @import url(./mobile/sections.css);
 @import url(./mobile/footer.css);
 @import url(./mobile/section-one.css);
 @import url(./mobile/carousel.css);
+
+/*desktop*/
+@import url(./desktop/utils.css);
+@import url(./desktop/section-one.css);
 @import url(./desktop/footer.css);
 @import url(./desktop/carousel.css);
 @import url(./desktop/section-two.css)
