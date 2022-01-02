@@ -2,10 +2,9 @@
   .section-two {
     display: flex;
     flex-direction: row-reverse;
-    margin: 0 auto;
+    margin: 79px auto 0px auto;
     width: 1167px;
     justify-content: space-between;
-    background-color: #00b5d0;
   }
 
   .section-two__frame {
