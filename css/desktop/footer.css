@@ -8,7 +8,7 @@
     grid-auto-rows: minmax(100px, auto);
     padding: 280px 50px 180px 180px;
     background-color: var(--blue-color);
-  
+
   }
 
   .footer__card {
@@ -19,9 +19,11 @@
     z-index: 99;
     position: relative;
     top: 100px;
-    left: 150px;
+    left: 50%;
+    transform: translateX(-50%);
     display: inline-flex;
     justify-content: space-around;
+
   }
 
   .footer__card-texto {
