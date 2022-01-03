@@ -14,7 +14,7 @@
   .section-carousel__title-section {
     grid-column: 1;
     position: absolute;
-    margin: 0px 150px;
+    margin: 560px 150px;
   }
   .section-carousel p {
     position: absolute;
@@ -66,7 +66,7 @@
   .contenedor-slider p {
     position: absolute;
     text-align: center;
-    top: 50px;
+    top: 430px;
     left: -80px;
     width: 353px;
     font-style: normal;
@@ -79,7 +79,7 @@
   /*texto LEO MAYNUS  */
   .section-carousel h1 {
     position: absolute;
-    top: 70px;
+    top: 500px;
     left: 15px;
     width: 152px;
     height: 27px;
@@ -95,7 +95,7 @@
   /* texto CEO at Softpanda */
   .section-carousel h3 {
     position: absolute;
-    top: 20px;
+    top: 530px;
     left: 25px;
 
     width: 125px;
@@ -117,12 +117,12 @@
   /* fotos costumers */
   #slide1 {
     position: absolute;
-    top: 0px;
+    top: 280px;
     left: 20px;
   }
   #slide2 {
     position: absolute;
-    top: 70px;
+    top: 200px;
     left: 456px;
   }
   #slide2 img {
@@ -132,8 +132,8 @@
 
   #slide3 {
     position: absolute;
-    top: 62px;
-    left: 416px;
+    top: 450px;
+    left: 426px;
   }
   #slide3 img {
     width: 80px;
@@ -142,7 +142,7 @@
 
   #slide4 {
     position: absolute;
-    top: 62px;
+    top: 675px;
     left: 199px;
   }
   #slide4 img {
@@ -151,8 +151,8 @@
   }
   #slide5 {
     position: absolute;
-    top: 48px;
-    left: 507px;
+    top: 688px;
+    left: 575px;
   }
   #slide5 img {
     width: 70px;
