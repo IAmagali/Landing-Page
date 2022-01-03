@@ -1,14 +1,16 @@
 @media screen and (min-width: 415px) {
   /* DESKTOP */
   .section-carousel {
-    background-color: blue;
+    background: linear-gradient(99.22deg, #5c0e62 1.27%, #00b5d0 92.23%);
     position: relative;
     margin: auto;
     margin-bottom: -190px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     height: 996px;
+    transform: skew(0deg, 0deg);
     width: 100%;
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0% 100%);
   }
 
   .section-carousel__title-section {
