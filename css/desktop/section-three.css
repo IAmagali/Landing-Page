@@ -1,0 +1,15 @@
+.sec-three__icon-list {
+    height: 34px;
+    width: auto;
+}
+
+.sec-three__icon-ul {
+    display: flex;
+    justify-content: space-between;
+    width: 834px;
+    margin: auto;
+}
+
+.sec-three__list-container {
+    margin: 70px 0 69.69px 0;
+}
