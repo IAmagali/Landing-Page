@@ -14,13 +14,13 @@
         margin: 70px 0 69.69px 0;
     }
 
-    .section-container {
+    .section-container--row-reverse {
         display: flex;
         flex-direction: row-reverse;
         width: 65%;
     }
 
-    .section-three__text {
+    .section__text {
         width: 30%;
         margin: 10% auto auto 0;
     }
