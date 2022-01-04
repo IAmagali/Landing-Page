@@ -31,4 +31,55 @@ a {
       justify-content: center;
   }
 
+  .section-subtract {
+      width: 80.36px;
+  }
+
+  .section-title {
+      font-family: 'Proxima Nova', sans-serif;
+      font-size: 12.7849px;
+      letter-spacing: 0.04em;
+      line-height: 128.6%;
+      font-weight: bold;
+      color: var(--red-color);
+      margin-bottom: 4px;
+  }
+
+.paragraph-section {
+    font-family: 'ProximaNova-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14.61px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: var(--gray-color);
+    margin-bottom: 16px;
+  }
+  
+.section-link {
+    
+    font-family: 'ProximaNova-Bold', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: var(--purple-color);
+  }
+  .title-section {
+    width: 230px;
+    height: 110px;
+    font-size: 24px;
+    line-height: 36.5282px;
+    font-family: 'ProximaNova-Bold', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    color: var(--gray-color);
+  }
+  .section-subtract {
+    position: absolute;
+    z-index: -1;
+    left: -38px;
+    top: -58px;
+  }
 }

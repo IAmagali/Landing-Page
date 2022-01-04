@@ -7,7 +7,7 @@
     .sec-three__icon-ul {
         display: flex;
         justify-content: space-between;
-        width: 60%;
+        width: 65%;
     }
 
     .sec-three__list-container {
@@ -17,12 +17,12 @@
     .section-container {
         display: flex;
         flex-direction: row-reverse;
-        width: 60%;
+        width: 65%;
     }
 
     .section-three__text {
         width: 30%;
-        margin: 14% auto auto 0;
+        margin: 10% auto auto 0;
     }
 
 }
