@@ -1,0 +1,28 @@
+@media screen and (min-width: 415px){
+    .sec-three__icon-list {
+        height: 34px;
+        width: auto;
+    }
+
+    .sec-three__icon-ul {
+        display: flex;
+        justify-content: space-between;
+        width: 65%;
+    }
+
+    .sec-three__list-container {
+        margin: 70px 0 69.69px 0;
+    }
+
+    .section-container--row-reverse {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 65%;
+    }
+
+    .section__text {
+        width: 30%;
+        margin: 10% auto auto 0;
+    }
+
+}
