@@ -32,7 +32,8 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
-	font-family: "ProximaNova-Regular"
+	font-family: "ProximaNova-Regular";
+	
 }
 ol, ul {
 	list-style: none;

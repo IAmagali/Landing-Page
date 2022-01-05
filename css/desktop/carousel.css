@@ -22,7 +22,7 @@
     position: absolute;
     text-align: left;
     top: 150px;
-    width: 353px;
+    width: 432px;
     font-style: normal;
     font-size: 15px;
     line-height: 128.6%;
@@ -37,14 +37,22 @@
     color: var(--white-color);
     width: 394px;
     font-size: 38px;
+    font-family: ProximaNova-Bold;
   }
 
   /* vectores decorativos de fondo */
   #vector1 {
     position: relative;
-    top: 00px;
+    top: 0px;
     left: -50px;
   }
+
+  #vector1 img{
+    position: absolute;
+    top: -110px;
+  }
+
+  
 
   #vector2 {
     position: absolute;
