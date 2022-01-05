@@ -16,7 +16,8 @@
   }
 
   .section-two__subtract {
-    filter: invert(0%) sepia(1%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+    filter: invert(0%) sepia(1%) saturate(2476%) hue-rotate(86deg)
+      brightness(118%) contrast(119%);
     width: 88px;
     height: 91px;
   }

@@ -1,17 +1,22 @@
 @media screen and (min-width: 415px) {
-*{
+  * {
     box-sizing: border-box;
-}
+  }
 
-a {
+  body {
+    background: #f7f3fa;
+
+  }
+
+  a {
     text-decoration: none;
     color: var(--white-color);
-}
+  }
 
-.inline-flex {
+  .inline-flex {
     display: inline-flex;
-}
-:root {
+  }
+  :root {
     --white-color: #ffffff;
     --gray-color: #857885;
     --purple-color: #5c0e62;
@@ -19,46 +24,46 @@ a {
     --yellow-color: #ffbc51;
     --blue-color: #210933;
     --purple-two-color: #434472;
-    --light_purple-color: #798AC9;
+    --light_purple-color: #798ac9;
   }
-  
+
   .ocult-d {
-      display: none;
+    display: none;
   }
 
   .flex-jcenter {
-      display: flex;
-      justify-content: center;
+    display: flex;
+    justify-content: center;
   }
 
-/* Sections */
+  /* Sections */
 
-/*position*/
-.section-container--row-reverse {
+  /*position*/
+  .section-container--row-reverse {
     flex-direction: row-reverse;
-}
-.section-container {
+  }
+  .section-container {
     display: flex;
     width: 65%;
-}
-.section__text {
+  }
+  .section__text {
     width: 30%;
     margin: 10% auto auto 0;
-}
-
-/*styles*/
-  .section__subtitle {
-      font-family: 'Proxima Nova', sans-serif;
-      font-size: 12.7849px;
-      letter-spacing: 0.04em;
-      line-height: 128.6%;
-      font-weight: bold;
-      color: var(--red-color);
-      margin-bottom: 4px;
   }
 
-.section_p {
-    font-family: 'ProximaNova-Bold', sans-serif;
+  /*styles*/
+  .section__subtitle {
+    font-family: "Proxima Nova", sans-serif;
+    font-size: 12.7849px;
+    letter-spacing: 0.04em;
+    line-height: 128.6%;
+    font-weight: bold;
+    color: var(--red-color);
+    margin-bottom: 4px;
+  }
+
+  .section_p {
+    font-family: "ProximaNova-Bold", sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 14.61px;
@@ -67,24 +72,23 @@ a {
     color: var(--gray-color);
     margin-bottom: 16px;
   }
-  
-.section__link {
-    
-    font-family: 'ProximaNova-Bold', sans-serif;
+
+  .section__link {
+    font-family: "ProximaNova-Bold", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 18px;
     line-height: 22px;
     text-decoration: none;
     color: var(--purple-color);
-    padding-right: 13px ;
+    padding-right: 13px;
   }
   .section__title {
     width: 230px;
     height: 110px;
     font-size: 24px;
     line-height: 36.5282px;
-    font-family: 'ProximaNova-Bold', sans-serif;
+    font-family: "ProximaNova-Bold", sans-serif;
     font-weight: 800;
     letter-spacing: 0.04em;
     color: var(--gray-color);
@@ -95,5 +99,12 @@ a {
     left: -38px;
     top: -58px;
     width: 80.36px;
+  }
+
+  .background-white{
+    position: absolute;
+    top: 1160px;
+    z-index: -2;
+    width: 90%;
   }
 }
